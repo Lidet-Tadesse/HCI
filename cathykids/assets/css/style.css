@@ -2,7 +2,52 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
-
+.bgimg button{
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-left: 200px;
+  background-color: #0ef1b9;
+  margin-top: 20px;
+  color: white;
+  border-radius: 15px;
+  padding: 2px 10px;
+}
+.bgimg button:hover{
+   background-color: #6fdbc4;
+   color:black;
+}
+.bgimg{
+  background-image:url("../images1/rising-to-the-challenge-banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  margin: 20px 0;
+  
+}
+.bgimg h1{
+ color: #0ef1b9;
+ font-family:Georgia, 'Times New Roman', Times, serif ;
+ 
+ padding-left: 200px;
+ padding-top: 100px;
+ font-weight: 700;
+}
+.till p{
+  font-size: medium;
+}
+.till h1{
+  color: #28a2c0;
+  font-size: 30px;
+}
+#navbar ul li a{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+#team h2{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
 a {
   color: #009cea;
   text-decoration: none;
